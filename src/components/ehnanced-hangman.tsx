@@ -2,18 +2,18 @@
 
 import { Button } from "@/components/ui/button";
 import {
-    Dialog,
-    DialogContent,
-    DialogDescription,
-    DialogHeader,
-    DialogTitle,
-    DialogTrigger,
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
 } from "@/components/ui/dialog";
 import {
-    DropdownMenu,
-    DropdownMenuContent,
-    DropdownMenuItem,
-    DropdownMenuTrigger,
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -188,18 +188,18 @@ const CATEGORIES = {
               <DialogHeader>
                 <DialogTitle>About Me</DialogTitle>
                 <DialogDescription>
-                  <div className="flex flex-col items-center space-y-4">
+                    <div className="flex flex-col items-center space-y-4">
                     <Image
-                      src="./"
+                      src="/images/apple-touch-icon.png"
                       alt="profile picture"
                       width={100}
                       height={100}
                       className="rounded-full"
                     />
                     <p>
-                        Hello, I&apos;m <strong><em>Yusuf Jamal</em></strong>, a developer with a passion for turning ideas into functional and elegant digital experiences.
+                      Hello, I&apos;m <strong><em>Yusuf Jamal</em></strong>, a developer with a passion for turning ideas into functional and elegant digital experiences.
                     </p>
-                  </div>
+                    </div>
                 </DialogDescription>
               </DialogHeader>
             </DialogContent>
